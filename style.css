@@ -1,0 +1,25 @@
+body {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/amazon-rainforest-brazil-royalty-free-image-1765485449.pjpeg?crop=0.82998xw:1xh;center,top");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+p {background-color:green }
+
+h1 {background-color:green }
+h2 {background-color:green }
+h3 {background-color:green }
+:link {background-color:green }
+
+.container {
+  display: flex;
+  justify-content: center; /* Vertically align image and text */
+  gap: 20px; /* Space between them */
+}
+
+
+
+.text {
+  flex: 1; /* Allows text section to take remaining space */
+}
